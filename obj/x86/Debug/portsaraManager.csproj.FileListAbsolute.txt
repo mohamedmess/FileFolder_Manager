@@ -1,0 +1,9 @@
+C:\Users\user\source\repos\minstere_Transport\obj\x86\Debug\portsaraManager.csprojResolveAssemblyReference.cache
+C:\Users\user\source\repos\minstere_Transport\obj\x86\Debug\minstere_Transport.Form_Help.resources
+C:\Users\user\source\repos\minstere_Transport\obj\x86\Debug\minstere_Transport.Form_Hwo.resources
+C:\Users\user\source\repos\minstere_Transport\obj\x86\Debug\minstere_Transport.Form_login.resources
+C:\Users\user\source\repos\minstere_Transport\obj\x86\Debug\minstere_Transport.Form_Principal.resources
+C:\Users\user\source\repos\minstere_Transport\obj\x86\Debug\minstere_Transport.ImageDisplay.resources
+C:\Users\user\source\repos\minstere_Transport\obj\x86\Debug\portsaraManager.minstere_Transport.Properties.Resources.resources
+C:\Users\user\source\repos\minstere_Transport\obj\x86\Debug\portsaraManager.csproj.GenerateResource.Cache
+C:\Users\user\source\repos\minstere_Transport\obj\x86\Debug\portsaraManager.csproj.CoreCompileInputs.cache

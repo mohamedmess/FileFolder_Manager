@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<ArrayOfDirectoryy xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Directoryy>
+    <IdDir>0</IdDir>
+    <NameDir>C:\Users\user\Desktop\D2points</NameDir>
+    <TypeDir>directory</TypeDir>
+  </Directoryy>
+  <Directoryy>
+    <IdDir>1</IdDir>
+    <NameDir>C:\Users\user\Desktop\D2points\activite 2016</NameDir>
+    <TypeDir>subdirectory</TypeDir>
+  </Directoryy>
+  <Directoryy>
+    <IdDir>2</IdDir>
+    <NameDir>C:\Users\user\Desktop\D2points\activite 2017</NameDir>
+    <TypeDir>subdirectory</TypeDir>
+  </Directoryy>
+  <Directoryy>
+    <IdDir>3</IdDir>
+    <NameDir>C:\Users\user\Desktop\D2points\activite 2018</NameDir>
+    <TypeDir>subdirectory</TypeDir>
+  </Directoryy>
+  <Directoryy>
+    <IdDir>4</IdDir>
+    <NameDir>C:\Users\user\Desktop\ServicesHouse Website</NameDir>
+    <TypeDir>directory</TypeDir>
+  </Directoryy>
+  <Directoryy>
+    <IdDir>5</IdDir>
+    <NameDir>C:\Users\user\Desktop\ServicesHouse Website\+templated-transit</NameDir>
+    <TypeDir>subdirectory</TypeDir>
+  </Directoryy>
+  <Directoryy>
+    <IdDir>6</IdDir>
+    <NameDir>C:\Users\user\Desktop\ServicesHouse Website\nettoyage website</NameDir>
+    <TypeDir>subdirectory</TypeDir>
+  </Directoryy>
+  <Directoryy>
+    <IdDir>7</IdDir>
+    <NameDir>C:\Users\user\Desktop\Cisco IoT Workshop 19 20 Dec 2017</NameDir>
+    <TypeDir>directory</TypeDir>
+  </Directoryy>
+  <Directoryy>
+    <IdDir>8</IdDir>
+    <NameDir>C:\Users\user\Desktop\Cisco IoT Workshop 19 20 Dec 2017\journée 1</NameDir>
+    <TypeDir>subdirectory</TypeDir>
+  </Directoryy>
+  <Directoryy>
+    <IdDir>9</IdDir>
+    <NameDir>C:\Users\user\Desktop\Cisco IoT Workshop 19 20 Dec 2017\journée 2</NameDir>
+    <TypeDir>subdirectory</TypeDir>
+  </Directoryy>
+</ArrayOfDirectoryy>

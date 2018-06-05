@@ -1,0 +1,13 @@
+C:\Users\user\source\repos\minstere_Transport\minstere_Transport\bin\Release\minstere_Transport.exe.config
+C:\Users\user\source\repos\minstere_Transport\minstere_Transport\bin\Release\minstere_Transport.exe
+C:\Users\user\source\repos\minstere_Transport\minstere_Transport\bin\Release\minstere_Transport.pdb
+C:\Users\user\source\repos\minstere_Transport\minstere_Transport\obj\Release\minstere_Transport.Form_Help.resources
+C:\Users\user\source\repos\minstere_Transport\minstere_Transport\obj\Release\minstere_Transport.Form_Hwo.resources
+C:\Users\user\source\repos\minstere_Transport\minstere_Transport\obj\Release\minstere_Transport.Form_login.resources
+C:\Users\user\source\repos\minstere_Transport\minstere_Transport\obj\Release\minstere_Transport.Form_Principal.resources
+C:\Users\user\source\repos\minstere_Transport\minstere_Transport\obj\Release\minstere_Transport.ImageDisplay.resources
+C:\Users\user\source\repos\minstere_Transport\minstere_Transport\obj\Release\minstere_Transport.Properties.Resources.resources
+C:\Users\user\source\repos\minstere_Transport\minstere_Transport\obj\Release\minstere_Transport.csproj.GenerateResource.Cache
+C:\Users\user\source\repos\minstere_Transport\minstere_Transport\obj\Release\minstere_Transport.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\minstere_Transport\minstere_Transport\obj\Release\minstere_Transport.exe
+C:\Users\user\source\repos\minstere_Transport\minstere_Transport\obj\Release\minstere_Transport.pdb

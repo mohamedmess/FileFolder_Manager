@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<ArrayOfFiless xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Filess>
+    <NameFile>1.png</NameFile>
+    <SubDirFile>activite 2016</SubDirFile>
+    <StateFile>false</StateFile>
+    <RealizedFile>لا يوجد</RealizedFile>
+  </Filess>
+  <Filess>
+    <NameFile>2.png</NameFile>
+    <SubDirFile>activite 2016</SubDirFile>
+    <StateFile>true</StateFile>
+    <RealizedFile>C:\Users\user\Desktop\D2points\activite 2016\2.png</RealizedFile>
+  </Filess>
+  <Filess>
+    <NameFile>file3.png</NameFile>
+    <SubDirFile>activite 2016</SubDirFile>
+    <StateFile>false</StateFile>
+    <RealizedFile>لا يوجد</RealizedFile>
+  </Filess>
+  <Filess>
+    <NameFile>files700.png</NameFile>
+    <SubDirFile>activite 2017</SubDirFile>
+    <StateFile>false</StateFile>
+    <RealizedFile>لا يوجد</RealizedFile>
+  </Filess>
+  <Filess>
+    <NameFile>file701.png</NameFile>
+    <SubDirFile>activite 2017</SubDirFile>
+    <StateFile>true</StateFile>
+    <RealizedFile>C:\Users\user\Desktop\D2points\activite 2017\file701.png</RealizedFile>
+  </Filess>
+  <Filess>
+    <NameFile>file33.png</NameFile>
+    <SubDirFile>activite 2016</SubDirFile>
+    <StateFile>true</StateFile>
+    <RealizedFile>C:\Users\user\Desktop\D2points\activite 2016\file33.png</RealizedFile>
+  </Filess>
+  <Filess>
+    <NameFile>+templated-hielo.zip</NameFile>
+    <SubDirFile>nettoyage website</SubDirFile>
+    <StateFile>false</StateFile>
+    <RealizedFile>لا يوجد</RealizedFile>
+  </Filess>
+  <Filess>
+    <NameFile>autre fichiers.txt</NameFile>
+    <SubDirFile>activite 2018</SubDirFile>
+    <StateFile>false</StateFile>
+    <RealizedFile>لا يوجد</RealizedFile>
+  </Filess>
+</ArrayOfFiless>

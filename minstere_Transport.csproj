@@ -1,0 +1,202 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{7944DFD9-DB88-4636-8B70-67A54CBCFBBC}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <AssemblyName>WindowsApplication</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>portsaraManager</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".vs\minstere_Transport\v15\.suo" />
+    <None Include=".vs\minstere_Transport\v15\Server\sqlite3\db.lock" />
+    <None Include=".vs\minstere_Transport\v15\Server\sqlite3\storage.ide" />
+    <None Include=".vs\slnx.sqlite" />
+    <None Include=".vs\VSWorkspaceState.json" />
+    <None Include="minstere_Transport\App.config" />
+    <None Include="minstere_Transport\bin\Debug\minstere_Transport.exe.config" />
+    <None Include="minstere_Transport\bin\Release\minstere_Transport.exe.config" />
+    <None Include="minstere_Transport\directoriesDataSet.xsc">
+      <DependentUpon>directoriesDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="minstere_Transport\directoriesDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>directoriesDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="minstere_Transport\directoriesDataSet.xss">
+      <DependentUpon>directoriesDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="minstere_Transport\obj\Debug\DesignTimeResolveAssemblyReferences.cache" />
+    <None Include="minstere_Transport\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="minstere_Transport\obj\Debug\minstere_Transport.csproj.CoreCompileInputs.cache" />
+    <None Include="minstere_Transport\obj\Debug\minstere_Transport.csproj.GenerateResource.Cache" />
+    <None Include="minstere_Transport\obj\Debug\minstere_Transport.csprojResolveAssemblyReference.cache" />
+    <None Include="minstere_Transport\obj\Release\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="minstere_Transport\obj\Release\minstere_Transport.csproj.CoreCompileInputs.cache" />
+    <None Include="minstere_Transport\obj\Release\minstere_Transport.csproj.GenerateResource.Cache" />
+    <None Include="minstere_Transport\Properties\Settings.settings" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="minstere_Transport\directoriesDataSet.Designer.cs" />
+    <Compile Include="minstere_Transport\directoriesDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>directoriesDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="minstere_Transport\Directoryy.cs" />
+    <Compile Include="minstere_Transport\Filess.cs" />
+    <Compile Include="minstere_Transport\Form_Help.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="minstere_Transport\Form_Help.Designer.cs">
+      <DependentUpon>Form_Help.cs</DependentUpon>
+    </Compile>
+    <Compile Include="minstere_Transport\Form_Hwo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="minstere_Transport\Form_Hwo.Designer.cs">
+      <DependentUpon>Form_Hwo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="minstere_Transport\Form_login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="minstere_Transport\form_login.Designer.cs">
+      <DependentUpon>Form_login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="minstere_Transport\Form_Principal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="minstere_Transport\Form_Principal.Designer.cs">
+      <DependentUpon>Form_Principal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="minstere_Transport\ImageDisplay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="minstere_Transport\ImageDisplay.Designer.cs">
+      <DependentUpon>ImageDisplay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="minstere_Transport\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="minstere_Transport\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="minstere_Transport\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="minstere_Transport\obj\Release\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="minstere_Transport\obj\Release\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="minstere_Transport\obj\Release\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="minstere_Transport\Program.cs" />
+    <Compile Include="minstere_Transport\Properties\AssemblyInfo.cs" />
+    <Compile Include="minstere_Transport\Properties\Resources.Designer.cs" />
+    <Compile Include="minstere_Transport\Properties\Settings.Designer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="minstere_Transport\Form_Help.resx">
+      <DependentUpon>Form_Help.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="minstere_Transport\Form_Hwo.resx">
+      <DependentUpon>Form_Hwo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="minstere_Transport\form_login.resx">
+      <DependentUpon>Form_login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="minstere_Transport\Form_Principal.resx">
+      <DependentUpon>Form_Principal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="minstere_Transport\ImageDisplay.resx">
+      <DependentUpon>ImageDisplay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="minstere_Transport\obj\Debug\minstere_Transport.Form_Help.resources" />
+    <EmbeddedResource Include="minstere_Transport\obj\Debug\minstere_Transport.Form_Hwo.resources" />
+    <EmbeddedResource Include="minstere_Transport\obj\Debug\minstere_Transport.Form_login.resources" />
+    <EmbeddedResource Include="minstere_Transport\obj\Debug\minstere_Transport.Form_Principal.resources" />
+    <EmbeddedResource Include="minstere_Transport\obj\Debug\minstere_Transport.ImageDisplay.resources" />
+    <EmbeddedResource Include="minstere_Transport\obj\Debug\minstere_Transport.Properties.Resources.resources" />
+    <EmbeddedResource Include="minstere_Transport\obj\Release\minstere_Transport.Form_Help.resources" />
+    <EmbeddedResource Include="minstere_Transport\obj\Release\minstere_Transport.Form_Hwo.resources" />
+    <EmbeddedResource Include="minstere_Transport\obj\Release\minstere_Transport.Form_login.resources" />
+    <EmbeddedResource Include="minstere_Transport\obj\Release\minstere_Transport.Form_Principal.resources" />
+    <EmbeddedResource Include="minstere_Transport\obj\Release\minstere_Transport.ImageDisplay.resources" />
+    <EmbeddedResource Include="minstere_Transport\obj\Release\minstere_Transport.Properties.Resources.resources" />
+    <EmbeddedResource Include="minstere_Transport\Properties\Resources.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="minstere_Transport\bin\Debug\Directories.xml" />
+    <Content Include="minstere_Transport\bin\Debug\Files.xml" />
+    <Content Include="minstere_Transport\bin\Debug\minstere_Transport.exe" />
+    <Content Include="minstere_Transport\bin\Debug\minstere_Transport.pdb" />
+    <Content Include="minstere_Transport\bin\Release\minstere_Transport.exe" />
+    <Content Include="minstere_Transport\bin\Release\minstere_Transport.pdb" />
+    <Content Include="minstere_Transport\minstere_Transport.csproj" />
+    <Content Include="minstere_Transport\obj\Debug\minstere_Transport.csproj.FileListAbsolute.txt" />
+    <Content Include="minstere_Transport\obj\Debug\minstere_Transport.exe" />
+    <Content Include="minstere_Transport\obj\Debug\minstere_Transport.pdb" />
+    <Content Include="minstere_Transport\obj\Debug\TempPE\directoriesDataSet.Designer.cs.dll" />
+    <Content Include="minstere_Transport\obj\Debug\TempPE\Properties.Resources.Designer.cs.dll" />
+    <Content Include="minstere_Transport\obj\Release\minstere_Transport.csproj.FileListAbsolute.txt" />
+    <Content Include="minstere_Transport\obj\Release\minstere_Transport.exe" />
+    <Content Include="minstere_Transport\obj\Release\minstere_Transport.pdb" />
+    <Content Include="minstere_Transport\obj\Release\TempPE\directoriesDataSet.Designer.cs.dll" />
+    <Content Include="minstere_Transport\obj\Release\TempPE\Properties.Resources.Designer.cs.dll" />
+    <Content Include="minstere_Transport\Resources\2f9b05_55ab7c83aebb49e38c395cd95472ab55_mv2.png" />
+    <Content Include="minstere_Transport\Resources\add_file.ico" />
+    <Content Include="minstere_Transport\Resources\anchor_gestureworks_basic-512.png" />
+    <Content Include="minstere_Transport\Resources\anchor_gestureworks_basic-5121.png" />
+    <Content Include="minstere_Transport\Resources\anchor_gestureworks_basic-5122.png" />
+    <Content Include="minstere_Transport\Resources\boat-ch0.png" />
+    <Content Include="minstere_Transport\Resources\delete_file.ico" />
+    <Content Include="minstere_Transport\Resources\delete_folder_Hsg_icon.ico" />
+    <Content Include="minstere_Transport\Resources\folder-icon.png" />
+    <Content Include="minstere_Transport\Resources\folder_icon_green_swC_icon.ico" />
+    <Content Include="minstere_Transport\Resources\folder_icon_red_Uj8_icon.ico" />
+    <Content Include="minstere_Transport\Resources\folder_icon_RqW_icon.ico" />
+    <Content Include="minstere_Transport\Resources\folder_icon_TsK_icon.ico" />
+    <Content Include="minstere_Transport\Resources\folder_icon_WkL_icon.ico" />
+    <Content Include="minstere_Transport\Resources\folder_icon___copie_QHf_icon.ico" />
+    <Content Include="minstere_Transport\Resources\if_arzo_icons_icon_68_2_51113_uB9_icon.ico" />
+    <Content Include="minstere_Transport\Resources\if_print_16_22615_Wku_icon.ico" />
+    <Content Include="minstere_Transport\Resources\loginimg_enf.ico" />
+    <Content Include="minstere_Transport\Resources\logo direction grand.jpg" />
+    <Content Include="minstere_Transport\Resources\logo direction.jpg" />
+    <Content Include="minstere_Transport\Resources\refresh_525698_960_720_jBg_icon.ico" />
+    <Content Include="minstere_Transport\Resources\save_icon_Wsl_icon.ico" />
+    <Content Include="minstere_Transport\Resources\unnamed_vxi_icon.ico" />
+    <Content Include="minstere_Transport\Resources\Webp.net-resizeimage.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+</Project>
